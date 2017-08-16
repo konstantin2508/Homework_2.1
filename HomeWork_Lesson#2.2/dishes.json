@@ -1,0 +1,65 @@
+{
+	"dishes_1": {
+		"dish_name": "Омлет",
+		"dish_amount": 3,
+		"ingredients": [
+			{
+				"ingredient_name": "Яйца",
+				"quantity": 2,
+				"measure": "шт"
+			},
+			{
+				"ingredient_name": "Молоко",
+				"quantity": 50,
+				"measure": "мл"
+			},
+			{
+				"ingredient_name": "Помидор",
+				"quantity": 100,
+				"measure": "гр"
+			}
+		]
+	},
+	"dishes_2": {
+		"dish_name": "Яичница",
+		"dish_amount": 2,
+		"ingredients": [
+			{
+			"ingredient_name": "Яйца",
+			"quantity": 5,
+			"measure": "шт"
+		},
+		{
+			"ingredient_name": "Помидор",
+			"quantity": 150,
+			"measure": "гр"
+		}
+		]
+	},
+	"dishes_3": {
+		"dish_name": "Салат",
+		"dish_amount": 1,
+		"ingredients": [
+		{
+			"ingredient_name": "Лук",
+			"quantity": 60,
+			"measure": "гр"
+		},
+		{
+			"ingredient_name": "Масло",
+			"quantity": 200,
+			"measure": "мл"
+		},
+		{
+			"ingredient_name": "Помидор",
+			"quantity": 50,
+			"measure": "гр"
+		},
+		{
+			"ingredient_name": "Огурец",
+			"quantity": 100,
+			"measure": "гр"
+		}
+		]
+	}		
+}
