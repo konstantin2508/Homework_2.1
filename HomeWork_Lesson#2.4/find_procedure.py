@@ -43,7 +43,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 def create_sql_file_list(file_list):
     sql_file_list = []    
     for file in file_list:
-        if '.sql' in file:
+        if file.endswith('.sql'):
             sql_file_list.append(file)
     return sql_file_list
 
@@ -59,11 +59,11 @@ def find_text_in_file(search_text, sql_file_list):
 def print_find_files(new_sql_file_list):
     if len(new_sql_file_list) > 10:
         print('...большой список файлов...')
-        print('Всего:',len(new_sql_file_list))
+        print('Всего:', len(new_sql_file_list))
     elif len(new_sql_file_list) > 0:
         for file in new_sql_file_list:
             print(os.path.join(migrations, file))
-        print('Всего:',len(new_sql_file_list))
+        print('Всего:', len(new_sql_file_list))
     else:
         print('Файлов, содержащих введеный текст не найдено')
                         
@@ -77,4 +77,3 @@ if __name__ == '__main__':
         print_find_files(new_sql_file_list)
         sql_file_list = new_sql_file_list
             
-    pass
